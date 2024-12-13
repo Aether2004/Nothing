@@ -53,7 +53,8 @@ def display_students():
 
 def main():
     while True:
-        print("\n1. Add Student")
+        print("Class Management Menu:")
+        print("1. Add Student")
         print("2. Update Grade")
         print("3. Display Students")
         print("4. Exit")
