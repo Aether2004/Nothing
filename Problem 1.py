@@ -45,7 +45,7 @@ def search_by_title(books):
 def main():
     books = []
     while True:
-        print("Library Menu:")
+        print("\nLibrary Menu:")
         print("1. Add Book")
         print("2. Display Books")
         print("3. Search Book by Title")
