@@ -30,7 +30,7 @@ def search_book_by_title(books):
     title = input("Enter book title to search: ")
     found = False
     for book in books:
-        if book() == title:
+        if book.title.lower() == title.title():
             print(f"Book Found:\n{book}")
             found = True
             break
